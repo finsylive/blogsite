@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.most-viewed h2 {
+    font-size: 2rem;
+    color: #0056b3; /* Brilliant blue for headings */
+}
+
+.most-viewed p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.nav-link-hover:hover {
+    color: #ffd700 !important; /* Gold hover effect for nav links */
+    text-decoration: underline;
+}
+
+.btn-search {
+    border: 2px solid #ffd700; /* Gold outline for search button */
+    color: #ffffff;
+}
+
+.btn-search:hover {
+    background-color: #ffd700; /* Gold background on hover */
+    color: #0056b3; /* Blue text on hover */
+    border-color: #ffd700;
+}
+
+.card {
+    background-color: #ffffff; /* White background */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3), 0 5px 15px rgba(0, 86, 179, 0.3); /* Stronger 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 150px; /* Smaller image */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.tag {
+    background-color: #0056b3; /* Brilliant blue for tags */
+    color: white;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    margin-top: 0.5rem;
+    font-size: 1.3rem; /* Smaller title */
+    color: #0056b3; /* Brilliant blue for titles */
+}
+
+.card-text {
+    font-size: 0.85rem; /* Slightly smaller text */
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Brilliant blue for buttons */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #003d7a;
+}
+
+.card:hover {
+    transform: translateY(-15px) rotateX(10deg) rotateY(10deg) scale(1.05); /* More pronounced 3D tilt effect */
+    box-shadow: 0 20px 40px rgba(0, 86, 179, 0.4), 0 15px 30px rgba(0, 0, 0, 0.3); /* Enhanced 3D effect on hover */
+}
